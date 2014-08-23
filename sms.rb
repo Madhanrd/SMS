@@ -1,8 +1,8 @@
 require 'rubygems'
 require 'twilio-ruby'
  
-account_sid = "ACd97bb086c967cf1e14305fae8bbe7952"
-auth_token = "e8225622c5d8fbc33886750260379f98"
+account_sid = "HIDDEN_SECRET"
+auth_token = "HIDDEN_SECRET"
 client = Twilio::REST::Client.new account_sid, auth_token
  
 from = "+15412272133" # Your Twilio number
